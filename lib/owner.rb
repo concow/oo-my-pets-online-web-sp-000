@@ -35,6 +35,15 @@ class Owner
     Dog.new(name, self)
   end
 
+  def cats
+
+
+  end
+
+  def dogs
+
+
+  end
 
 
 end
