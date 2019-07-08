@@ -28,7 +28,7 @@ class Owner
   end
 
   def buy_cat           #can buy a cat that is an instance of the Cat class
-    Cat.new(name, self)
+    Cat.new(name, self)    #instantiated new instance, with method calls to name, and self (owner in this case)
   end
 
 
