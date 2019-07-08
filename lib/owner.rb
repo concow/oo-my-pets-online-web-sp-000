@@ -27,7 +27,7 @@ class Owner
      "I am a #{self.species}."
   end
 
-  def buy_cat
+  def buy_cat           #can buy a cat that is an instance of the Cat class
 
 
   end
