@@ -7,6 +7,6 @@ class Cat
     @name = name              #Cat initializes a cat at creation
     @mood = mood
     @owner = owner
-
+    @@all << self             #add all instances of Cat to our class var
   end
 end
