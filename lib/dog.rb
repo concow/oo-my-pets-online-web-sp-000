@@ -11,8 +11,8 @@ class Dog
     @@all << self               #add all 'Dog' instances to our class var array
   end
 
-  def self.all
-
+  def self.all            #class method used to read data stored in class var
+    return @@all          #@@all returned
   end
 
 end
