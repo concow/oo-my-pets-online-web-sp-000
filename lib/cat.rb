@@ -5,7 +5,7 @@ class Cat
 
   def initialize(name, owner, mood = "nervous")           #all these upon instantiation of this Cat class
     @name = name              #Cat initializes a cat at creation
-    @mood = "nervous"
+    @mood = mood
     @owner = owner
 
   end
