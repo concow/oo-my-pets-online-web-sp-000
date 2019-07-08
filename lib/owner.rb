@@ -15,7 +15,7 @@ class Owner
     return @@all
   end
 
-  def self.count                        #class method counts our class var size
+  def self.count                        #class method counts/returns our class var size
     return @@all.size
   end
 
