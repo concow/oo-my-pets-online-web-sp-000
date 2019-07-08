@@ -1,17 +1,9 @@
 class Cat
-  attr_accessor :mood, :owner
-  attr_reader :name
-  @@all = []
-  def initialize(name, owner, mood = "nervous")
-    @name = name
-    @mood = mood
-    @owner = owner
-    @@all << self                     #add all instances to class var
-  end
+  
+  attr_reader :name           #Cat only reads name, can't change its name
+  def initialize(name)
+    @name = name              #Cat initializes a cat at creation
 
-  def self.all
-    return @@all
   end
 
 end
-#
