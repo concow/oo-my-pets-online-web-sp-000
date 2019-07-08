@@ -15,7 +15,7 @@ class Owner
     return @@all
   end
 
-  def self.count
+  def self.count                        #class method counts our class var size
     return @@all.size
   end
 
@@ -26,6 +26,8 @@ class Owner
   def say_species
      "I am a #{self.species}."
   end
+
+  def buy_cat
 
 
 
