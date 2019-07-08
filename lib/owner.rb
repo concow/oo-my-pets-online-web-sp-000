@@ -8,6 +8,6 @@ class Owner
   def initialize(name)
     @name = name
     @species = "human"
-    @@all << self               #add all the species objects
+    @@all << self               #add all the species objects (owners) to our class var array
   end
 end
